@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="614.0" prefWidth="925.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bma_project.Mohaiminul.user5.PostJobFormController">
+   <children>
+      <Text layoutX="37.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Job title" />
+      <Text layoutX="27.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hospital Name" />
+      <TextField fx:id="companyNameTextField" layoutX="116.0" layoutY="63.0" />
+      <TextField fx:id="titletextField" layoutX="116.0" layoutY="31.0" />
+      <ComboBox fx:id="locationCombobox" layoutX="313.0" layoutY="31.0" prefWidth="150.0" promptText="Location" />
+      <ComboBox fx:id="EmployTypeComboBox" layoutX="313.0" layoutY="63.0" prefWidth="150.0" promptText="Employment Type" />
+      <TextField fx:id="salaryTextfield" layoutX="106.0" layoutY="114.0" />
+      <DatePicker fx:id="dealineDatePicker" layoutX="313.0" layoutY="115.0" prefHeight="25.0" prefWidth="150.0" promptText="Deadline" />
+      <Text layoutX="63.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Salary" />
+      <Button layoutX="249.0" layoutY="175.0" mnemonicParsing="false" onAction="#handlePostJobButton" text="Post Job" />
+      <Button layoutX="85.0" layoutY="175.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back to JobTable" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="493.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bma_project.Mohaiminul.user5.AddNewDoctorViewController">
+   <children>
+      <Label layoutX="79.0" layoutY="66.0" text="Doctors ID" />
+      <Label layoutX="79.0" layoutY="98.0" text="Password" />
+      <TextField fx:id="newDocIdTextField" layoutX="162.0" layoutY="62.0" />
+      <TextField fx:id="newDocPassTextField" layoutX="162.0" layoutY="94.0" />
+      <Button layoutX="178.0" layoutY="131.0" mnemonicParsing="false" onAction="#handleAddDocButton" text="Add Doc Profile" />
+      <Button layoutX="38.0" layoutY="443.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
+      <Label layoutX="155.0" layoutY="23.0" prefHeight="25.0" prefWidth="155.0" text="Please start the id with &quot;doc_" />
+      <Button layoutX="175.0" layoutY="178.0" mnemonicParsing="false" onAction="#handleViewDocListButton" text="View Doctors List" />
+   </children>
+</AnchorPane>

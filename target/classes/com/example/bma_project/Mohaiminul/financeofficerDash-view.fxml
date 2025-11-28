@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bma_project.Mohaiminul.user5.FinanceofficerDashViewController">
+   <children>
+      <Button layoutX="42.0" layoutY="44.0" mnemonicParsing="false" onAction="#handlePostjobButton" prefHeight="25.0" prefWidth="157.0" text="Manage Jobs" />
+      <Button layoutX="42.0" layoutY="352.0" mnemonicParsing="false" onAction="#handleLogOutButton" prefHeight="25.0" prefWidth="157.0" text="LogOut" />
+      <Button layoutX="242.0" layoutY="44.0" mnemonicParsing="false" onAction="#handleAddDocButton" text="Add Doc" />
+      <Button layoutX="354.0" layoutY="44.0" mnemonicParsing="false" onAction="#handleAppliedJobsButon" text="Applied Jobs" />
+      <Button layoutX="485.0" layoutY="44.0" mnemonicParsing="false" onAction="#handleUnpaidProfilesButton" text="Pay Status" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bma_project.Mohaiminul.user5.AppliedJobListViewController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="743.0" prefWidth="923.0">
+         <children>
+            <TableView fx:id="JobTableView" layoutX="45.0" layoutY="371.0" prefHeight="287.0" prefWidth="790.0">
+               <columns>
+                  <TableColumn fx:id="jobtitleCol" prefWidth="75.0" text="Job Title" />
+                  <TableColumn fx:id="hospitalNameCol" prefWidth="116.0" text="Hospital Name" />
+                  <TableColumn fx:id="locationCol" prefWidth="91.0" text="Location" />
+                  <TableColumn fx:id="TypeCol" prefWidth="66.0" text="Type" />
+                  <TableColumn fx:id="salaryCol" prefWidth="98.0" text="Salary" />
+                  <TableColumn fx:id="dateofPostedCol" prefWidth="142.0" text="Date of Posting" />
+                  <TableColumn fx:id="appDeadlineCol" prefWidth="201.0" text="Applcation Deadline" />
+               </columns>
+            </TableView>
+            <Text fx:id="docNameLabel" layoutX="224.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="104.658203125" />
+            <Button layoutX="559.0" layoutY="704.0" mnemonicParsing="false" onAction="#handleBackButton" prefHeight="25.0" prefWidth="141.0" text="Back" />
+            <Label layoutX="105.0" layoutY="305.0" text="Name" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="983aa0a8-2a4e-4f4b-ba72-a7b08a48f158" name="Changes" comment="28 november fresh commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SharukH-9s&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SharukH-9s/oop-project-group_6-BMA.git&quot;,
+    &quot;accountId&quot;: &quot;24426075-1b8a-41db-94b8-c1169bd8cceb&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Eclipse Adoptium/jdk-21.0.6.7-hotspot/lib/src.zip!/java.base/java/lang/ClassNotFoundException.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Eclipse Adoptium/jdk-21.0.6.7-hotspot/lib/src.zip!/java.desktop/java/awt/event/ActionEvent.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="35TIlRnaMjoSOuUVs5MBOV7YnqS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "Application.Unnamed.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/xDDDDD/IdeaProjects/BMA_Project - Copy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xDDDDD\IdeaProjects\BMA_Project - Copy\src\main\resources\com\example\bma_project\Mohaiminul\user5" />
+      <recent name="C:\Users\xDDDDD\IdeaProjects\BMA_Project - Copy\src\main\java\com\example\bma_project\Mohaiminul\user5" />
+      <recent name="C:\Users\xDDDDD\IdeaProjects\BMA_Project - Copy\src\main\resources\com\example\bma_project\user6" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xDDDDD\IdeaProjects\BMA_Project - Copy\src\main\resources\com\example\bma_project\Mohaiminul\user6" />
+      <recent name="C:\Users\xDDDDD\IdeaProjects\BMA_Project - Copy\src\main\resources\com\example\bma_project\Mohaiminul\user5" />
+      <recent name="C:\Users\xDDDDD\IdeaProjects\BMA_Project - Copy\src\main\resources\com\example\bma_project\Mohaiminul" />
+      <recent name="C:\Users\xDDDDD\IdeaProjects\BMA_Project - Copy\src\main\resources\com\example\bma_project\user5" />
+      <recent name="C:\Users\xDDDDD\IdeaProjects\BMA_Project - Copy\src\main\resources\com\example\bma_project\user6" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.bma_project.Mohaiminul" />
+      <recent name="com.example.bma_project" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.bma_project.HelloApplication" />
+      <module name="Group_6_BMA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="BMA_Project - Copy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="983aa0a8-2a4e-4f4b-ba72-a7b08a48f158" name="Changes" comment="" />
+      <created>1763127785880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763127785880</updated>
+      <workItem from="1763127786962" duration="13431000" />
+      <workItem from="1763185978621" duration="11235000" />
+      <workItem from="1763224228390" duration="407000" />
+      <workItem from="1763224667269" duration="5865000" />
+      <workItem from="1763231362601" duration="252000" />
+      <workItem from="1763297327298" duration="4626000" />
+      <workItem from="1763301988371" duration="153000" />
+      <workItem from="1763302147798" duration="97000" />
+      <workItem from="1763364138091" duration="8158000" />
+      <workItem from="1763558633290" duration="9956000" />
+      <workItem from="1763577141835" duration="275000" />
+      <workItem from="1763577442625" duration="1250000" />
+      <workItem from="1763618395116" duration="9883000" />
+      <workItem from="1763630634723" duration="943000" />
+      <workItem from="1763794181383" duration="6824000" />
+      <workItem from="1763801200992" duration="860000" />
+      <workItem from="1763814511512" duration="6810000" />
+      <workItem from="1763831226675" duration="4537000" />
+      <workItem from="1763901479862" duration="6881000" />
+      <workItem from="1763912254578" duration="1600000" />
+      <workItem from="1763978532815" duration="2413000" />
+      <workItem from="1763998544238" duration="7729000" />
+      <workItem from="1764010743611" duration="681000" />
+      <workItem from="1764071754354" duration="5713000" />
+      <workItem from="1764089437356" duration="3777000" />
+      <workItem from="1764172749057" duration="10100000" />
+      <workItem from="1764221182899" duration="7585000" />
+      <workItem from="1764309001115" duration="613000" />
+      <workItem from="1764309623444" duration="729000" />
+      <workItem from="1764310376579" duration="567000" />
+      <workItem from="1764310949434" duration="144000" />
+      <workItem from="1764311097722" duration="194000" />
+      <workItem from="1764312557917" duration="552000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1764092203455</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764092203455</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1764092416838</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764092416838</updated>
+    </task>
+    <task id="LOCAL-00003" summary="27 November commit">
+      <option name="closed" value="true" />
+      <created>1764183335811</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764183335811</updated>
+    </task>
+    <task id="LOCAL-00004" summary="27 November commit">
+      <option name="closed" value="true" />
+      <created>1764227737815</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764227737815</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix in login for doctor">
+      <option name="closed" value="true" />
+      <created>1764228096619</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764228096619</updated>
+    </task>
+    <task id="LOCAL-00006" summary="28 november commit">
+      <option name="closed" value="true" />
+      <created>1764310340727</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1764310340727</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="oop-project-group_6-BMA/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="27 November commit" />
+    <MESSAGE value="fix in login for doctor" />
+    <MESSAGE value="28 november commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="28 november commit" />
+  </component>
+</project>

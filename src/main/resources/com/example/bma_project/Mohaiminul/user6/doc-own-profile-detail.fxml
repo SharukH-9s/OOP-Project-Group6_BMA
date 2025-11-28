@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="474.0" prefWidth="810.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bma_project.Mohaiminul.user6.DocOwnProfileDetailController">
+   <children>
+      <TableView fx:id="DocsTable" layoutX="15.0" layoutY="14.0" prefHeight="386.0" prefWidth="781.0">
+         <columns>
+            <TableColumn fx:id="docIdCol" prefWidth="66.0" text="ID" />
+            <TableColumn fx:id="docNameCol" prefWidth="81.0" text="Name" />
+            <TableColumn fx:id="docEmailCol" prefWidth="87.0" text="Email" />
+            <TableColumn fx:id="docNumberCol" prefWidth="90.0" text="Number" />
+            <TableColumn fx:id="docAddressCol" prefWidth="84.0" text="Address" />
+            <TableColumn fx:id="docEducationCol" prefWidth="102.0" text="Education" />
+            <TableColumn fx:id="docExpCol" prefWidth="112.0" text="Experience" />
+            <TableColumn fx:id="docSkillCol" prefWidth="71.0" text="Skill" />
+            <TableColumn fx:id="docPassCol" prefWidth="87.0" text="Password" />
+         </columns>
+      </TableView>
+      <Button layoutX="701.0" layoutY="424.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
+      <Label layoutX="15.0" layoutY="416.0" text="TransactionID" />
+      <Label fx:id="transactionIdLabel" layoutX="38.0" layoutY="441.0" text="N/A" />
+   </children>
+</AnchorPane>

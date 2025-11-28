@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="576.0" prefWidth="797.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bma_project.Mohaiminul.user6.SaveJobController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="538.0" prefWidth="839.0">
+         <children>
+            <TableView fx:id="JobTableView" layoutX="41.0" layoutY="24.0" prefHeight="287.0" prefWidth="790.0">
+               <columns>
+                  <TableColumn fx:id="jobtitleCol" prefWidth="99.0" text="Job Title" />
+                  <TableColumn fx:id="hospitalNameCol" prefWidth="133.0" text="Hospital Name" />
+                  <TableColumn fx:id="locationCol" prefWidth="144.0" text="Location" />
+                  <TableColumn fx:id="TypeCol" prefWidth="166.0" text="Type" />
+                  <TableColumn fx:id="salaryCol" prefWidth="247.0" text="Salary" />
+               </columns>
+            </TableView>
+            <Button layoutX="41.0" layoutY="346.0" mnemonicParsing="false" onAction="#handlePrintButton" text="Print" />
+            <Button layoutX="48.0" layoutY="487.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
