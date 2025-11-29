@@ -28,27 +28,8 @@ public class CompleteProfileViewController
     @javafx.fxml.FXML
     private TextField passTextField;
     @javafx.fxml.FXML
-    private Label idLabel11;
-    @javafx.fxml.FXML
-    private Label idLabel22;
-    @javafx.fxml.FXML
-    private Label idLabel21;
-    @javafx.fxml.FXML
     private TextField transactionIdTextField;
-    @javafx.fxml.FXML
-    private Label idLabel2;
-    @javafx.fxml.FXML
-    private Label idLabel1;
-    @javafx.fxml.FXML
-    private Label idLabel11111;
-    @javafx.fxml.FXML
-    private Label idLabel111;
-    @javafx.fxml.FXML
-    private Label idLabel111111;
-    @javafx.fxml.FXML
-    private Label idLabel211;
-    @javafx.fxml.FXML
-    private Label idLabel1111;
+
 
     @javafx.fxml.FXML
     public void initialize() { // id Doc_ doesn't change, so we display it as soon as this window loads
@@ -61,13 +42,13 @@ public class CompleteProfileViewController
         if ( !expTextField.getText().isEmpty() && !addressTextField.getText().isEmpty() && !skillTextField.getText().isEmpty() && !emailTextField.getText().isEmpty() && !numberTextField.getText().isEmpty()
                 && !nameTextField.getText().isEmpty() && !educationTextField.getText().isEmpty() && !passTextField.getText().isEmpty() )
         {
-            if ( passTextField.getText().length() > 6 ) // if all fields have inputs, validate password
+            if ( passTextField.getText().length() > 5 ) // if all fields have inputs, validate password
             {
                 HelperClass.loggedInDoctor.setExperience(Integer.parseInt(expTextField.getText()));
                 HelperClass.loggedInDoctor.setAddress(addressTextField.getText());
                 HelperClass.loggedInDoctor.setSkill(skillTextField.getText());
                 HelperClass.loggedInDoctor.setEmail(emailTextField.getText());
-                HelperClass.loggedInDoctor.setPhone(numberTextField.getText());
+                HelperClass.loggedInDoctor.setPhone(Integer.parseInt(numberTextField.getText()));
                 HelperClass.loggedInDoctor.setName(nameTextField.getText());
                 HelperClass.loggedInDoctor.setEducation(educationTextField.getText());
                 HelperClass.loggedInDoctor.setPassword(passTextField.getText());

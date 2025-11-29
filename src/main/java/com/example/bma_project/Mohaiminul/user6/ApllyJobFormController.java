@@ -38,23 +38,18 @@ public class ApllyJobFormController
             c.setContentText("Enter Title");
             c.showAndWait();
         }
-
-        else {  // we search with the title of a job from job table. if we find a match from the jobArraylist,
-                    // we display that jobs title, salary and hospital name.
-            for(job j : HelperClass.jobArrayList){
-                if(j.getJobtitle().equals(TitleTextField.getText())){
-                    hospitalText.setText(j.getHospitalName());
-                    titleText.setText(j.getJobtitle());
-                    salaryText.setText(Double.toString(j.getSalary()));
-                    break;
-                }
-                else {
-                    Alert c = new Alert(Alert.AlertType.ERROR);
-                    c.setContentText("No such jobs with this title is found");
-                    c.showAndWait();
-                }
-            }
-        }
+         // we search with the title of a job from job table. if we find a match from the jobArraylist,
+        // we display that jobs title, salary and hospital name.
+           if (!(TitleTextField.getText().isEmpty())) {
+               for(job j : HelperClass.jobArrayList){
+                   if (j.getJobtitle().equals(TitleTextField.getText())) {
+                       hospitalText.setText(j.getHospitalName());
+                       titleText.setText(j.getJobtitle());
+                       salaryText.setText(Double.toString(j.getSalary()));
+                       break;
+                   }
+               }
+           }
     }
 
     @javafx.fxml.FXML

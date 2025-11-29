@@ -4,7 +4,7 @@ public class financeOfficer extends Users {
    private String hospitalName;
    private String designation;
 
-    public financeOfficer(String phone, String password, String email, String name, String id, String hospitalName, String designation) {
+    public financeOfficer(int phone, String password, String email, String name, String id, String hospitalName, String designation) {
         super(phone, password, email, name, id);
         this.hospitalName = hospitalName;
         this.designation = designation;
@@ -39,5 +39,5 @@ public class financeOfficer extends Users {
                 '}';
     }
     // create a single financeofficer object which will be used in various controller
-    static financeOfficer officer = new financeOfficer("01963649988", "1234", "MHSRK", "officer1","mroff", "DMC", "FinanceOfficer");
+    static financeOfficer officer = new financeOfficer(88990, "1234", "MHSRK", "officer1","mroff", "DMC", "FinanceOfficer");
 }

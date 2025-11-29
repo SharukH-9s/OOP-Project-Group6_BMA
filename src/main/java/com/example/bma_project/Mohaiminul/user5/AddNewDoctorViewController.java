@@ -27,7 +27,7 @@ public class AddNewDoctorViewController
             if (newDocIdTextField.getText().startsWith("doc_")){
                 Doctor newDoc= new Doctor(
                         //we create a new object of doctor only with id and pass.
-                        "empty", newDocPassTextField.getText(), "empty", "empty",
+                        0, newDocPassTextField.getText(), "empty", "empty",
                         newDocIdTextField.getText(),"empty",0,"empty","empty","empty"
                 );
 

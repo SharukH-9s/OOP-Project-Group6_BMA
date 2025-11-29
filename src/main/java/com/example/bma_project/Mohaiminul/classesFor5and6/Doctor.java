@@ -6,12 +6,12 @@ public class Doctor extends Users{
     private String address, education, skill;
     private int  experience;
     private String transaction_id;
-    public Doctor(String phone, String password, String email, String name, String id) {
+    public Doctor(int phone, String password, String email, String name, String id) {
         super(phone, password, email, name, id);
 
     }
 
-    public Doctor(String phone, String password, String email, String name, String id, String address, int experience, String skill, String education, String transaction_id) {
+    public Doctor(int phone, String password, String email, String name, String id, String address, int experience, String skill, String education, String transaction_id) {
         super(phone, password, email, name, id);
         this.address = address;
         this.experience = experience;

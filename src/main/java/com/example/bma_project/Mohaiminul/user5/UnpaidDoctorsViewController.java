@@ -39,7 +39,7 @@ public class UnpaidDoctorsViewController
         PaidtranscationIdColumn.setCellValueFactory(new PropertyValueFactory<>("transaction_id"));
 
         for (Doctor d : HelperClass.doctorArrayList){
-            if ((d.getTransaction_id().equals("empty")) && !(d.getTransaction_id().startsWith("TRNX")) && !(d.getTransaction_id().endsWith("025")))  {
+            if ((d.getTransaction_id().equals("empty")) || (!(d.getTransaction_id().startsWith("TRNX")) && !(d.getTransaction_id().endsWith("025"))))  {
                 DocsTable.getItems().add(d);
             }
         }
