@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="526.0" prefWidth="784.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bma_project.Pulok.User1.SaveUnpaidDocsController">
+   <children>
+      <TableView fx:id="DocsTable" layoutX="41.0" layoutY="24.0" prefHeight="386.0" prefWidth="286.0">
+         <columns>
+            <TableColumn fx:id="docIdCol" prefWidth="70.0" text="ID" />
+            <TableColumn fx:id="docNameCol" prefWidth="97.0" text="Name" />
+            <TableColumn fx:id="transcationIdColumn" prefWidth="118.0" text="Transcation ID" />
+         </columns>
+      </TableView>
+      <Button layoutX="41.0" layoutY="456.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
+      <Button layoutX="222.0" layoutY="456.0" mnemonicParsing="false" onAction="#handleSaveButton" text="Save" />
+   </children>
+</AnchorPane>
