@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bma_project.Pulok.User1.AddFOofficerController">
+   <children>
+      <TextField fx:id="nameText" layoutX="14.0" layoutY="39.0" />
+      <TextField fx:id="idText" layoutX="179.0" layoutY="39.0" />
+      <TextField fx:id="passText" layoutX="380.0" layoutY="39.0" />
+      <TextField fx:id="hospitalText" layoutX="14.0" layoutY="142.0" />
+      <TextField fx:id="mailText" layoutX="187.0" layoutY="142.0" />
+      <TextField fx:id="phoneText" layoutX="386.0" layoutY="142.0" />
+      <Button layoutX="63.0" layoutY="284.0" mnemonicParsing="false" onAction="#saveButton" text="Save" />
+      <Label layoutX="63.0" layoutY="15.0" text="name" />
+      <Label layoutX="240.0" layoutY="15.0" text="id" />
+      <Label layoutX="447.0" layoutY="15.0" text="password" />
+      <Label layoutX="441.0" layoutY="117.0" text="Phone" />
+      <Label layoutX="254.0" layoutY="117.0" text="email" />
+      <Label layoutX="63.0" layoutY="117.0" text="Hospital Name" />
+      <Label layoutX="57.0" layoutY="183.0" text="Designation" />
+      <ComboBox fx:id="designationBox" layoutX="14.0" layoutY="217.0" prefWidth="150.0" />
+      <Button layoutX="488.0" layoutY="284.0" mnemonicParsing="false" onAction="#backButtonHandle" onRotationFinished="#backButtonHandle" text="Back" />
+   </children>
+</AnchorPane>
