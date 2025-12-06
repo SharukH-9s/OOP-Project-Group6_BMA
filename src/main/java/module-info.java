@@ -12,5 +12,9 @@ module com.example.bma_project {
     opens com.example.bma_project.Mohaiminul.user5 to javafx.fxml;
     exports com.example.bma_project.Mohaiminul.classesFor5and6;
     opens com.example.bma_project.Mohaiminul.classesFor5and6 to javafx.fxml;
+    exports com.example.bma_project.Pulok;
+    opens com.example.bma_project.Pulok to javafx.fxml;
+    exports com.example.bma_project.Pulok.User1;
+    opens com.example.bma_project.Pulok.User1 to javafx.fxml;
 
 }

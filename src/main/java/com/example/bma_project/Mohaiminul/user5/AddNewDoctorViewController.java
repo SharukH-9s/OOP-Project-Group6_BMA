@@ -25,14 +25,17 @@ public class AddNewDoctorViewController
 
             // if id starts with doc_
             if (newDocIdTextField.getText().startsWith("doc_")){
+                //using the 10 fields constructor, we create a new object of doctor only with id and pass.
+                // Parent User class's 5 fields comes first
                 Doctor newDoc= new Doctor(
-                        //we create a new object of doctor only with id and pass.
-                        0, newDocPassTextField.getText(), "empty", "empty",
-                        newDocIdTextField.getText(),"empty",0,"empty","empty","empty"
+
+                        0, newDocPassTextField.getText(), null,null ,
+                        newDocIdTextField.getText()
                 );
 
                 // we add the doctor object to arraylist, show success message and show the table
                 HelperClass.doctorArrayList.add(newDoc);
+
                 Alert a = new Alert(Alert.AlertType.CONFIRMATION);
                 a.setContentText("doc added");
                 a.showAndWait();

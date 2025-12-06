@@ -47,7 +47,7 @@ public class AppliedJobListViewController
         dateofPostedCol.setCellValueFactory(new PropertyValueFactory<>("postdate"));
     }
 
-      // This method is called by the previous controller to pass in the required data.
+    // This method is called by the previous controller to pass in the required data.
     public void initData(String doctorId) {
             Doctor selectedDoctor = null;
            for (Doctor doc : HelperClass.doctorArrayList) {

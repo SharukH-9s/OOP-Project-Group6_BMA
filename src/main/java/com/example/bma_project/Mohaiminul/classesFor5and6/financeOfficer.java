@@ -38,6 +38,5 @@ public class financeOfficer extends Users {
                 ", id='" + id + '\'' +
                 '}';
     }
-    // create a single financeofficer object which will be used in various controller
-    static financeOfficer officer = new financeOfficer(88990, "1234", "MHSRK", "officer1","mroff", "DMC", "FinanceOfficer");
+
 }

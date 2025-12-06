@@ -37,7 +37,8 @@ public class CompleteProfileViewController
     }
 
     @javafx.fxml.FXML
-    public void handleUpdateButton(ActionEvent actionEvent) throws IOException { //using the loggedInDoctor from helperclass, we change current doctor object's data
+    public void handleUpdateButton(ActionEvent actionEvent) throws IOException {
+        //using the loggedInDoctor created after successful login of a doctor, we change current doctor object's data.
         // first check for empty fields.
         if ( !expTextField.getText().isEmpty() && !addressTextField.getText().isEmpty() && !skillTextField.getText().isEmpty() && !emailTextField.getText().isEmpty() && !numberTextField.getText().isEmpty()
                 && !nameTextField.getText().isEmpty() && !educationTextField.getText().isEmpty() && !passTextField.getText().isEmpty() )

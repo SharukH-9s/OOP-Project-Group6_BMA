@@ -65,7 +65,6 @@ public class SaveJobController
             return;
         }
 
-
         // Convert TableView data to List
         var list = new java.util.ArrayList<>(JobTableView.getItems());
         // Write to the selected file
@@ -77,7 +76,6 @@ public class SaveJobController
 
         }
     }
-
     @javafx.fxml.FXML
     public void handleBackButton(ActionEvent actionEvent) throws IOException {
         HelperClass.sceneSwitch(actionEvent,"Mohaiminul/user6/doctorsDash-view.fxml", "Dash Board");

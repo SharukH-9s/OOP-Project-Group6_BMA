@@ -20,6 +20,9 @@ public class HelperClass {
     public static Doctor loggedInDoctor;
 
 
+
+
+
     //scene switch method
     public static void sceneSwitch(ActionEvent actionEvent, String fxmlFile, String title) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource(fxmlFile));

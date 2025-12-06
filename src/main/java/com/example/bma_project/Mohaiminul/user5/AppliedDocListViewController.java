@@ -35,25 +35,28 @@ public class AppliedDocListViewController {
         DocsTable.getItems().addAll(HelperClass.doctorArrayList);
 
         // Add a listener to handle clicks on table rows
-        DocsTable.getSelectionModel().selectedItemProperty().addListener(
+        DocsTable.getSelectionModel().selectedItemProperty().addListener( // detects the row clicked
                 (obs, oldSelection, newSelection) -> {
+                    // stores the clicked Doctor object in newSelection
                     if (newSelection != null)
                     {
-                        showAppliedJobsForDoctor(newSelection);
+                        showAppliedJobsForDoctor(newSelection); // pass newSelection to the function
                     }
                 }
         );
     }
 
     private void showAppliedJobsForDoctor( Doctor selectedDoctor)
+    //This method takes the selected Doctor object and handles the transition
+    // from the current view (the table) to a new view that displays that doctor's applied jobs
     {
         try { // Load the FXML for the next view
             FXMLLoader loader =  new FXMLLoader(HelloApplication.class.getResource("Mohaiminul/appliedJobListView.fxml"));
             Scene scene = new Scene(loader.load());
 
-            //getting controller for next view
+            //getting AppliedJobListViewController for next view,because we cant use initData method directly
+            //from outside AppliedJobListViewController.
             AppliedJobListViewController controller = loader.getController();
-
             //passing selected doctors id to next controller
             controller.initData(selectedDoctor.getId());
 
